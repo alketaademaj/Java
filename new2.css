@@ -1,0 +1,18 @@
+h1 {
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p {
+	text-align: center;
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+}
+
+body {
+	background-image: url("road.jpg");
+	font-family: "Times New Roman", Times, serif;
+}
