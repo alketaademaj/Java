@@ -1,0 +1,198 @@
+body {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to bottom, #ffffff 0%, #9EBDF2 100%); /* safari4+,chrome */
+}  
+
+#logo {
+  padding-top: 1em;
+}
+
+nav {
+  background-color:rgb(255, 164, 0);
+}
+
+nav a {
+  color: ivory !important;
+}
+
+.nav-justified {
+	width: 98%;
+}
+
+.active {
+	background-color: #9EC0FF;
+}
+
+div#textarea {
+  width: 80%;
+}
+textarea {
+  border: 1px solid #999999;
+  width: 100%;
+  margin: 2px 0;
+  padding: 3px;
+}
+
+legend {
+  font-size: 19px;
+}
+
+header {
+  height: 600px;
+  width: auto;
+  clear: left;
+  text-align: center;
+  position: static;
+  background-image: url("../kuvat/torni.png");
+  background-size: cover;
+}
+
+div.container {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(20%, rgba(255,255,255,1)), color-stop(100%, rgba(186,193,255,1))); /* safari4+,chrome */
+}
+
+section {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3em;
+  color: black;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(20%, rgba(255,255,255,1)), color-stop(100%, rgba(186,193,255,1))); /* safari4+,chrome */
+  clear: left;
+  text-align: left;
+  position: relative;
+}
+
+.sertifikaatti {
+  padding-top: 25px;
+  margin: auto;
+}
+
+.sertifikaatti01 {
+	margin: auto;
+}
+
+footer {
+  width: 100%;
+  padding-top: 3em;
+  padding-left: 5.5em;
+  padding-right: 5em;
+  color: black;
+  background-color: #BAC1ff;
+  clear: both;
+  position: relative;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media only screen and (min-width: 575px) {
+
+
+.lvinordic {
+  overflow: auto;
+  border: 1px solid white;
+  width: 98%;
+  height: 500px;
+  color: black;
+  padding: 0.3em;
+}
+
+.toiminta {
+  overflow: auto;
+  border: 1px solid white;
+  width: 98%;
+  height: 500px;
+  color: black;
+  padding: 0.3em;
+}
+
+::-webkit-scrollbar{
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: #D1D6FF;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.3);
+}
+
+::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: #EDF0FF;
+  box-shadow: inset 0 0 5px rgba(0,0,0,.3);
+}
+}
+
+@media only screen and (max-width: 575px) {
+
+.sertifikaatit {
+  padding-top: 30px;
+}
+
+.toiminta {
+  padding-top: 30px;
+}	
+}
+
+h1 {
+  font-family:"Verdana", Arial Black, sans serif;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 55px;
+  text-shadow: 0 0 11px #9EBDF2;
+}
+
+h2 {
+  color: black;
+  padding-left: 20px;
+  padding-top: 11px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: "Helvetica", Arial Black, sans serif;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #FFBE8C;
+  text-align: center;
+  font-size: 1.7em;
+}
+
+h3 {
+  color: black;
+  padding-left: 20px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-family: "Helvetica", Arial Black, sans serif;
+  text-align: left;
+  border-bottom: 1.5px solid #9EC0FF;
+  border-bottom-style: dotted;
+  font-size: 1.3em;
+}
+
+p {
+  color: black;
+  font-family:Verdana, Arial, sans-serif;
+  font-size:1em;
+}
+
+h4 {
+  padding-left: 30px;
+  color: black;
+}
+
+
+p,ul,ol,dl {
+  font-family:Verdana, Arial, sans-serif;
+  font-size:1em;
+}
